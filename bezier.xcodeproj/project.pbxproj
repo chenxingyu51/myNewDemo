@@ -18,6 +18,7 @@
 		049C5A79200C87B600381BE2 /* BezierView.m in Sources */ = {isa = PBXBuildFile; fileRef = 049C5A78200C87B600381BE2 /* BezierView.m */; };
 		04BAFBAE200D87A40047820D /* ProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BAFBAD200D87A40047820D /* ProgressView.m */; };
 		04D7EB9F201196C7004D4A77 /* model.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D7EB9E201196C7004D4A77 /* model.m */; };
+		04D7EBA2201198EC004D4A77 /* GitCommit.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D7EBA1201198EC004D4A77 /* GitCommit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		04BAFBAD200D87A40047820D /* ProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProgressView.m; sourceTree = "<group>"; };
 		04D7EB9D201196C7004D4A77 /* model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = model.h; sourceTree = "<group>"; };
 		04D7EB9E201196C7004D4A77 /* model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = model.m; sourceTree = "<group>"; };
+		04D7EBA0201198EC004D4A77 /* GitCommit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GitCommit.h; sourceTree = "<group>"; };
+		04D7EBA1201198EC004D4A77 /* GitCommit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitCommit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				04BAFBAD200D87A40047820D /* ProgressView.m */,
 				04D7EB9D201196C7004D4A77 /* model.h */,
 				04D7EB9E201196C7004D4A77 /* model.m */,
+				04D7EBA0201198EC004D4A77 /* GitCommit.h */,
+				04D7EBA1201198EC004D4A77 /* GitCommit.m */,
 				049C5A48200C873C00381BE2 /* Main.storyboard */,
 				049C5A4B200C873C00381BE2 /* Assets.xcassets */,
 				049C5A4D200C873C00381BE2 /* LaunchScreen.storyboard */,
@@ -285,6 +290,7 @@
 				049C5A52200C873C00381BE2 /* main.m in Sources */,
 				04D7EB9F201196C7004D4A77 /* model.m in Sources */,
 				049C5A44200C873C00381BE2 /* AppDelegate.m in Sources */,
+				04D7EBA2201198EC004D4A77 /* GitCommit.m in Sources */,
 				049C5A79200C87B600381BE2 /* BezierView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
