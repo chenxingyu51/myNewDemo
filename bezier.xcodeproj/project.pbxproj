@@ -15,6 +15,8 @@
 		049C5A52200C873C00381BE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 049C5A51200C873C00381BE2 /* main.m */; };
 		049C5A5C200C873C00381BE2 /* bezierTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 049C5A5B200C873C00381BE2 /* bezierTests.m */; };
 		049C5A67200C873C00381BE2 /* bezierUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 049C5A66200C873C00381BE2 /* bezierUITests.m */; };
+		049C5A79200C87B600381BE2 /* BezierView.m in Sources */ = {isa = PBXBuildFile; fileRef = 049C5A78200C87B600381BE2 /* BezierView.m */; };
+		04BAFBAE200D87A40047820D /* ProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BAFBAD200D87A40047820D /* ProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		049C5A62200C873C00381BE2 /* bezierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bezierUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		049C5A66200C873C00381BE2 /* bezierUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bezierUITests.m; sourceTree = "<group>"; };
 		049C5A68200C873C00381BE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		049C5A77200C87B600381BE2 /* BezierView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BezierView.h; sourceTree = "<group>"; };
+		049C5A78200C87B600381BE2 /* BezierView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BezierView.m; sourceTree = "<group>"; };
+		04BAFBAC200D87A40047820D /* ProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProgressView.h; sourceTree = "<group>"; };
+		04BAFBAD200D87A40047820D /* ProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				049C5A43200C873C00381BE2 /* AppDelegate.m */,
 				049C5A45200C873C00381BE2 /* ViewController.h */,
 				049C5A46200C873C00381BE2 /* ViewController.m */,
+				049C5A77200C87B600381BE2 /* BezierView.h */,
+				049C5A78200C87B600381BE2 /* BezierView.m */,
+				04BAFBAC200D87A40047820D /* ProgressView.h */,
+				04BAFBAD200D87A40047820D /* ProgressView.m */,
 				049C5A48200C873C00381BE2 /* Main.storyboard */,
 				049C5A4B200C873C00381BE2 /* Assets.xcassets */,
 				049C5A4D200C873C00381BE2 /* LaunchScreen.storyboard */,
@@ -266,8 +276,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				049C5A47200C873C00381BE2 /* ViewController.m in Sources */,
+				04BAFBAE200D87A40047820D /* ProgressView.m in Sources */,
 				049C5A52200C873C00381BE2 /* main.m in Sources */,
 				049C5A44200C873C00381BE2 /* AppDelegate.m in Sources */,
+				049C5A79200C87B600381BE2 /* BezierView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
